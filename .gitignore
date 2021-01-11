@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Reports
+*.rpt
+
+# CPL data generated from PCB
+*.pos
+
+# KiCAD backup
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+_saved_*
+
+# Gerbers
+*.gbr
+
+# Drill files
+*.drl
+
+# Footprint info cache
+fp-info-cache
+
+# Autosave files
+_autosave-*
