@@ -49,7 +49,11 @@ To connect your xbox pad you need to use bluetoothctl:
 5. Now you need to search and connect to your pad, also you can trust yours device to connect automatically after each gamepad power on:
 
 	agent on
+	
 	default-agent
+	
 	scan on
+	
 	connect GAMEPAD_MAC_ADDRESS
+	
 	trust GAMEPAD_MAC_ADDRESS
