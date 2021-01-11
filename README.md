@@ -34,11 +34,11 @@ To connect your xbox pad you need to use bluetoothctl:
 
 	sudo apt-get install xboxdrv
 	
-2. Disable Enhanced Re-Transmission Mode (ERTM)
+2. Disable Enhanced Re-Transmission Mode (ERTM):
 
 	echo 'options bluetooth disable_ertm=Y' | sudo tee -a /etc/modprobe.d/bluetooth.conf
 	
-3. restart your Raspberry
+3. restart your Raspberry:
 
 	sudo reboot now
 	
